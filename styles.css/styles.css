@@ -6,7 +6,7 @@ padding: 0;
 box-sizing: border-box; 
 }
 body{
-    font-family:"Montserrat", "sans-serif";
+    font-family:"DM Serif Display", "normal";
     overflow-x: hidden;
 }
 .wrapper {
@@ -127,8 +127,7 @@ h1{
 }
 .card .project-details {
     margin: 0 auto
-    margin: 1em;
-    width: 70%; 
+    width; grid-auto-flow: column; 
 }
 .card .project-details a {
     text-decoration: none;

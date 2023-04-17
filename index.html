@@ -8,16 +8,68 @@
     <link rel="stylesheet" href="https://css/styles.css">
     <link rel="stylesheet" href="styles.css">
   
-<header>
-  <nav>
-<div class="brand">
+<header><style>
+  @import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700,100,200,800,900%7CDM+Serif+Display:regular,italic&amp;subset=latin%2Clatin-ext?ver=8739"); 
+id {
+margin: 0;
+padding: 0;
+background-color:blue
+}
+.wrapper {
+ width: 100vw;
+ height: 100vh;
+ background-color:blue
+}
+.navbar{
+    display: flex auto;
+    justify-content: space-between;
+    background-color:blue    
+}
+</style>
+
+<div class="brand"><style>
+  .brand{
+    background-color: blue;
+  }
+</style>
   <img src="Images/APLogo.jpg">
 </div>  
 
-<div class="banner">
+<div class="banner"><style>
+  .banner{
+    height: 50vh;
+    background-color: blue;
+    padding-top: 3vw;
+  }
+</style>
   <img src="Images/banner.png">
 </div>
-        <ul class="menu"> 
+        <ul class="menu"><style>
+.menu {
+    display: flex;
+    width: 50%;
+    height: 70%;
+    justify-content: space-around;
+    background-color:blue 
+}
+.menu li a {
+    list-style: none;
+}
+.menu a {
+    color: white
+    text-decoration none;
+    padding: 70px 80px;
+}
+.menu .active{
+  color: white; 
+  font-size 50px;
+}
+.menu a:hover {
+  background-color: aqua;
+  transition ease-in. 4s;
+  color: blue;
+}
+        </style> 
             <li><a class="active" href="#">Acerca de mí</a></li>
             <li><a class="active" href="#">Mis Proyectos</a></li>
             <li><a class="active" href="#">Contacto</a></li>   
@@ -26,13 +78,53 @@
     </nav>
 </header>
 
-<body>
+<body><style>
+  body{
+    font-family:"DM Serif Display", "normal";
+    overflow-x: hidden;
+}
+</style>
 </div>
-<main class="main">
+<main class="main"><style>
+  .main img {
+    width: 350px;
+    border: 7px solid aqua;
+    margin-top: 2em;
+    margin-left: 3em
+}
+  .main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+h1{
+    font-size: 3em;
+}
+.download-cv {
+    padding: 60px 80px;
+    font-size: 40px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 2em;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102,231,200,.69);
+    margin-bottom: 2em;
+}
+.download-cv:hover {
+    background-color:white;
+    box-shadow: none;
+    color: blue;
+
+}
+</style>
  <div class="info-content">
   <h1> Acerca de mí</h1>
-  <p>Me desempeño como directora del Instituto Privado de Capacitación Laboral Fomento a la Inserción Laboral (Fomilab), que es de propiedad de la Asociación Civil sin fines de lucro homónima. Me resta la tesis para graduarme en la Maestría en Enseñanza en Escenarios Digitales UN Cuyo. Soy ganadora del Premio Nacional Arturo Jauretche 2da. Edición y soy autora del libro: "Desarrollo Organizacional y Gestión Social. Caso: Asociación Civil sin Fines de Lucro Fomento a la Inserción Laboral (Fomilab), en Mendoza, Argentina", que fue presentado en la Feria del Libro de Buenos Aires y de Mendoza, en 2018. Me capacité en #Yo Programo de Argentina Programa para ser Desarrolladora Web Full Stack como freelancer y para poder enseñar gratuitamente programación a mis alumnos/as. Mis habilidades son: Administración de Empresas en un 100 %, dado que mi formación de base es la Licenciatura en Administración, Liderazgo en un 100 %, Trabajo en Equipo en un 100 %, Formulación y Dirección de Proyectos en un 100 %, puesto que soy Socia Fundadora de PMI Nuevo Cuyo, Soft y Hard Skills en un 70 %, estoy en un proceso de aprendizaje y perfeccionamiento y Resiliencia en un 100 %.
-  </p>
+  <h2>Me desempeño como directora del Instituto Privado de Capacitación Laboral Fomento a la Inserción Laboral (Fomilab), que es de propiedad de la Asociación Civil sin fines de lucro homónima. Me resta la tesis para graduarme en la Maestría en Enseñanza en Escenarios Digitales FED UN Cuyo. Soy ganadora del Premio Nacional Arturo Jauretche 2da. Edición y soy autora del libro: "Desarrollo Organizacional y Gestión Social. Caso: Asociación Civil sin Fines de Lucro Fomento a la Inserción Laboral (Fomilab), en Mendoza, Argentina", que fue presentado en la Feria del Libro de Buenos Aires y de Mendoza, en 2018. Me capacité en #Yo Programo de Argentina Programa para ser Desarrolladora Web Full Stack como freelancer y para poder enseñar gratuitamente programación a mis alumnos/as. Mis habilidades son: Administración de Empresas en un 100 %, dado que mi formación de base es la Licenciatura en Administración, Liderazgo en un 100 %, Trabajo en Equipo en un 100 %, Formulación y Dirección de Proyectos en un 100 %, puesto que soy Socia Fundadora de PMI Nuevo Cuyo, Soft y Hard Skills en un 70 %, estoy en un proceso de aprendizaje y perfeccionamiento.
+  </h2>
   <a download hrefer="#">
     <button class "download-cv" download="https://www.linkedin.com/in/marialejandraluceroestrada/">Download CV</button>
     </a>
@@ -44,66 +136,281 @@
 </div>
 </main>
 
-  <div class="portfolio">
+  <div class="portfolio"><style>
+.portfolio {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+.portfolio-headings {
+    width: 100vw;
+    padding: 3em;
+}
+.portfolio-headings h2 {
+    font-size: 2.5em;
+}
+.portfolio-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.card1 {
+    width: 300px;
+    height: 350px;
+    color: white;
+    background-color: darkblue;
+    padding-top: 0,05vw;
+    margin-bottom: 2cm;
+}
+.card-img1 {
+    width: 100%;
+    height: 150px;
+    background-image: url(Images/proyecto.jpg);
+    background-size: cover;
+}
+.card-title1 {
+    padding: 20px;
+}
+.card-project-links1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-project-links1 a {
+    color: white;
+    text-decoration: none;
+}
+.card-project-links1 i {
+    font-size: 1.5em;
+}
+.card .project-details1 {
+    margin-right: 3cm;
+    width; grid-auto-flow: row; 
+}
+.card .project-details1 a {
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+}
+.project-details-content1 {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-top: 1em;
+}
+.card2 {
+    width: 300px;
+    height: 350px;
+    color: white;
+    background-color: blueviolet;
+    margin-bottom: 2cm;
+}
+.card-img2 {
+    width: 100%;
+    height: 150px;
+    background-image: url(Images/proyecto.jpg);
+    background-size: cover;
+}
+.card-title2 {
+    padding: 20px;
+}
+.card-project-links2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-project-links2 a {
+    color: white;
+    text-decoration: none;
+}
+.card-project-links2 i {
+    font-size: 1.5em;
+}
+.card .project-details2 {
+    margin-right: 3cm
+    width; grid-auto-flow: row; 
+}
+.card .project-details2 a {
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+}
+.project-details-content2 {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-top: 1em;
+}
+.card3 {
+    width: 300px;
+    height: 350px;
+    color: white;
+    background-color: darkorchid;
+    margin-bottom: 0,5cm;
+  }
+.card-img3 {
+    width: 100%;
+    height: 150px;
+    background-image: url(Images/proyecto.jpg);
+    background-size: cover;
+}
+.card-title3 {
+    padding: 20px;
+}
+.card-project-links3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-project-links3 a {
+    color: white;
+    text-decoration: none;
+}
+.card-project-links3 i {
+    font-size: 1.5em;
+}
+.card .project-details3 {
+    margin-right: 3cm
+    width; grid-auto-flow: row; 
+}
+.card .project-details3 a {
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+}
+.project-details-content3 {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-top: 1em;
+}
+  </style>
+
   <div class="portfolio-headings">
     <h1>Mis Proyectos</h1>
   <div class="divider"></div>
   </div>
   <div class="container">
     
-    <div class="card">
-      <div class="card-image">
+    <div class="card1">
+      <div class="card-image1">
       </div>
-    <div class="card-title">
-      <h2>Descripción del proyecto</h2>
+    <div class="card-title1">
+      <h2>Descripción del proyecto 1</h2>
     </div>
 
-    <div class="card">
-      <div class="card-image">
+    <div class="card2">
+      <div class="card-image2">
       </div>
-    <div class="card-title">
-      <h2>Descripción del proyecto</h2>
+    <div class="card-title2">
+      <h2>Descripción del proyecto 2</h2>
     </div>
 
-    <div class="card">
-      <div class="card-image">
+    <div class="card3">
+      <div class="card-image3">
       </div>
-    <div class="card-title">
-      <h2>Descripción del proyecto</h2>
+    <div class="card-title3">
+      <h2>Descripción del proyecto 3</h2>
     </div>
 
-    </div class="card-projects-links">
-      <h3>Proyecto Asociación Fomilab</h3>
-      <div class="proyecto asociacion-Fomilab"><a hrefer="https://sites.google.com/view/asociacion-fomilab/pagina-principal" target="_blank">
-      <h3>Proyecto de Narrativa Transmedia</h3>
-      <div class="proyecto de narrativa transmedia"><a hrefer="https://sites.google.com/view/rumboalexitoemprendedor/comenzamos" target="_blank">
-      <h3>Proyecto Integrador Yo Programo Argentina Programa</h3>
-      <div class="proyecto en github">
-      <a href="https://github.com/maluceroestrada508/ProyectoIntegrador_LuceroEstradaMA" target="_blank">
+    </div class="card-projects-links1">
+        <h3>Proyecto Asociación Fomilab</h3>
+        <div class="proyecto asociacion-Fomilab"><a hrefer="https://sites.google.com/view/asociacion-fomilab/pagina-principal" target="_blank">
+    </div class="card-projects-links2">
+        <h3>Proyecto de Narrativa Transmedia</h3>
+        <div class="proyecto de narrativa transmedia"><a hrefer="https://sites.google.com/view/rumboalexitoemprendedor/comenzamos" target="_blank">
+    </div class="card-projects-links3">
+        <h3>Proyecto Integrador Yo Programo Argentina Programa</h3>
+        <div class="proyecto en github">
+        <a href="https://github.com/maluceroestrada508/ProyectoIntegrador_LuceroEstradaMA" target="_blank">
       </div>
-      <div class="project-details-content">
-    <button class="project-details download-cv"><a hrefer"">Detalles del proyecto</a></button>
-    </div>
+    <div class="project-details-content1">
+      <button class="project-details download-cv"><a hrefer"">Detalles del proyecto 1</a></button>
+    <div class="project-details-content2">
+      <button class="project-details download-cv"><a hrefer"">Detalles del proyecto 2</a></button>
+    <div class="project-details-content3">
+      <button class="project-details download-cv"><a hrefer"">Detalles del proyecto 3</a></button> 
+  </div>
 </div>
 </div>
 </body>
 
-<footer class="footer">
+<footer class="footer"><style>
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 30vh;
+    background-color: aqua;
+    color: blue;
+}
+.footer-content h2{
+    font-size: 3cm;
+}
+.sotial-network {
+    display: flex;
+    margin-right: 4cm;
+    width: 200px;
+    height: 100px;
+    padding-top: 0vh;
+    }
+</style>
     <div class="footer content">
-  <h1>Pueden contactarme en:</h1>
-  <h3>Mi correo electrónico: maluceroestrada508@gmail.com</h3>
-  <link rel="Correo electrónico" href="maluceroestrada508@gmail.com">
+  <h1>Pueden contactarme en:</h1><style>
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0,5cm;
+    </style>
+  </style>
+  <h2>Mi correo electrónico: maluceroestrada508@gmail.com</h2>
+  <link rel="Correo electrónico" href="maluceroestrada508@gmail.com"><style>
+    margin-top: 0,5cm; 
+    </style>
   </div>
     <div class="sotial-network">
-        <h3>O a través de Linkedin</h3>
-  <img src="/Images/Linkedin.png" alt="Linkedin"> 
+        <h2>O a través de Linkedin</h2>
+  <img src="/Images/Linkedin.png" alt="Linkedin"><style>
+    margin-right::after 3cm;
+    width: 200px;
+    height: 200px;
+    margin-top: 0,5cm;
+    </style><div class="Linkedin">
+      <button class="project-details download-cv"><a hrefer"">Linkedin</a></button> 
+  </div> 
 <link rel="Linkedin image" href="https://www.linkedin.com/in/marialejandraluceroestrada/">
-  <h3>Por último, los invito a visitar mis Blogs:</h3>
-  <img src="/Images/Blogger.png" alt="Blogger"> 
+  <h2>Por último, los invito a visitar mis Blogs:</h2><style>
+    margin::before 3cm </style>
+  <img src="/Images/Blogger.png" alt="Blogger1">
+  <div class="Blogger1">
+      <button class="project-details download-cv"><a hrefer"">Blogger1</a></button> 
+  </div>
+  <style>
+    margin-right::after 3cm;
+    width: 200px;
+    height: 200px;
+    margin-top: 0,5cm;
+    </style> 
   <link rel="Blog Entretejido Social Mendocino image" href="https://mariaalejandraluceroestrada.blogspot.com/">
-  <img src="/Images/Blogger.png" alt="Blogger"> 
+  <img src="/Images/Blogger.png" alt="Blogger2"><div class="Blogger2">
+      <button class="project-details download-cv"><a hrefer"">Blogger2</a></button> 
+  </div>
+  <style>
+    margin-right::after 3cm;
+    width: 200px;
+    height: 200px;
+    margin-top: 0,5cm;
+    </style> 
   <link rel="Blog Mis experiencias en el uso de las TIC image" href="https://misexperienciasenelusodelastic.blogspot.com/">
-  <img src="/Images/Blogger.png" alt="Blogger"> 
+  <img src="/Images/Blogger.png" alt="Blogger3"><style>
+    width: 200px;
+    height: 200px;
+    margin-top: 0,5cm;
+  </style>
+    <div class="Blogger3">
+      <button class="project-details download-cv"><a hrefer""></a>Blogger3</button> 
+  </div> 
   <link rel="Blog Organizacion y Administración de PYMES image" href="https://organizacionyadministraciondepymes.blogspot.com/">
 </div>
 </footer>
